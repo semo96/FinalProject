@@ -1,0 +1,344 @@
+
+/*----------------------------------------*/
+/*  1. Templet format
+/*----------------------------------------*/
+*{
+    direction:rtl;
+}
+@font-face {
+    font-family: '18 Khebrat Musamim';
+    src: url('../fonts/Khebrat-Musamim-Bold-New.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/segoeui_0.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Changa';
+    src: url('../fonts/Changa-Bold.ttf');
+    font-weight: normal;
+}
+a:visited, a:link, a:active {
+    text-decoration: none;
+}
+/*font format*****/
+body,div,section,p{
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+    src: url('../fonts/Khebrat-Musamim-Bold-New.ttf');
+    src: url('../fonts/Changa-Bold.ttf');
+    src: url('../fonts/segoeui_0.ttf');
+}
+li,h1,h2,h3,h4,h5,h6{
+    font-family: '18 Khebrat Musamim','Changa','Segoe UI',Arial, Helvetica, sans-serif;
+    src: url('../fonts/Khebrat-Musamim-Bold-New.ttf');
+    src: url('../fonts/Changa-Bold.ttf');
+    src: url('../fonts/segoeui_0.ttf');
+}
+
+.page-title-wrapper,.page-title-heading{
+    direction:rtl;
+   
+}
+.page_title_p{
+    padding-right:10px;
+}
+.app-header .app-header__content .header-menu .nav-link {
+    color: #6c757d;
+}
+
+.header-menu, .nav{
+float:right;
+}
+.app-header__logo .logo-src {
+    height: 100%;
+    width: 100%;
+    background: url(../images/logo-inverse.png) no-repeat  center;
+}
+.fixed-sidebar .app-main .app-main__outer {
+    z-index: 9;
+    padding-left: 20px;
+}
+/********************form***************************/
+.needs-validation{
+direction:rtl;
+text-align: right;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    margin:1% auto;
+}
+.app-page-title {
+    padding: 10px;
+    margin: -30px -30px 30px;
+    position: relative;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  4. Table 
+/*----------------------------------------*/
+.input-group input[type='search']{
+    display: none;
+    padding: 5px;
+    width:150px;
+    border: 1px solid rgba(128, 128, 128, 0.45);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    outline: 0px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    margin-right: 20%;
+}
+
+.input-group input[type='search']:focus, .input-group input[type='search']:active {
+    border-color: rgba(33, 150, 243, 0.8);
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(33, 150, 243, 0.6);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(33, 150, 243, 0.6);
+    box-shadow: 0px 0px 2px 1px rgba(33, 150, 243, 0.6);
+}
+
+/*Tablas*/
+.table.striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.table.hover tbody tr:hover {
+    background-color: rgba(216, 213, 213, 0.05);
+}
+
+.cus_order_list_title
+{
+    color:#fc6006;
+    text-align: center;
+    font-size: 27px;
+    font-family: '18 Khebrat Musamim','Changa','Segoe UI',Arial, Helvetica, sans-serif;
+    src: url('../../fonts/Khebrat-Musamim-Bold-New.ttf');
+    src: url('../../fonts/Changa-Bold.ttf');
+    src: url('../../fonts/segoeui_0.ttf');
+}
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: none;
+}
+.table{
+    margin: 2% auto;
+    text-align: right;
+    padding: 5px;
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 0px;
+    margin-bottom: 20px;
+    width: 97%;
+    border: 1px solid #ddd;
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+    src: url('../../fonts/segoeui_0.ttf');
+    
+
+}
+
+.table_header {
+    text-align: centert;
+    color:white;
+    text-align: center;
+    font-family: '18 Khebrat Musamim','Changa','Segoe UI',Arial, Helvetica, sans-serif;
+    src: url('../../fonts/Khebrat-Musamim-Bold-New.ttf');
+    src: url('../../fonts/Changa-Bold.ttf');
+    src: url('../../fonts/segoeui_0.ttf');
+    background-color: rgb(6, 126, 177);
+
+}
+
+th{
+    text-align:center; 
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 5px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-left: 1px solid #ddd;
+    
+}
+
+/****button***/
+.action_btn {
+    margin-right: 10%;
+    
+}
+.action_btn button{
+  width:55px;
+  height:25px;
+  border-radius: 5%;
+  position: relative ;
+  margin: 3px auto;
+
+
+}
+ .btn-sm {
+    padding: .25rem .5rem;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+.ui-theme-settings .themeoptions-heading {
+    font-size: 12px;
+    color: #495057;
+    margin: 0;
+    background: #f8f9fa;
+    padding: .75rem 1.5rem;
+    border-bottom: #dee2e6 solid 1px;
+    border-top: #dee2e6 solid 1px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+/****pagination***/
+div.paginate{
+    padding: 5px 0px;
+    margin: auto;
+    float:right;
+}
+div.paginate input[type='button']:hover{
+    cursor: pointer;
+}
+div.paginate input[type='button']{
+    margin: 0px 2px;
+    border: none;
+    color: #03A9F4;
+    background-color: transparent;
+    border-radius: 50%;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    outline: none;
+}
+
+div.paginate input[type='button'].active{
+    background-color: #17a2b8;
+    color: #fff;
+    font-weight: bold;
+}
+div.paginate input[type='button']:disabled{
+    color: grey!important;
+    cursor: not-allowed;
+}
+
+div.paginate input[type='number']#paginate_page_to_go{
+    max-width: 3rem;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.65);
+    padding: 3px;
+}
+/****search****/
+
+.au-input {
+    line-height: 43px;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #666;
+    padding: 0 17px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.au-input--xl {
+    min-width: 310px;
+ 
+
+}
+.au-btn--submit {
+    position: relative;
+    right: 0;
+    min-width: 65px;
+    line-height: 43px;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #009efb;
+ 
+ 
+}
+.search-wrapper {
+    position: relative;
+    margin-right: .66667rem;
+    float:right;
+    margin:5px;
+   margin-right:50px;
+   margin-top:20px;
+}
+.search-wrapper .input-holder .search-icon {
+    width: 42px;
+    height: 42px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    float: left;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: rgba(0,0,0,0.06);
+    border-radius: 30px;
+ 
+}
+/****button***/
+.action_btn {
+    margin-right: 10%;
+   
+    
+}
+.action_btn button{
+  width:55px;
+  height:25px;
+  border-radius: 5%;
+  position: relative ;
+  margin: 3px auto;
+  font-size:12px;
+
+}
+
+/*----------------------------------------*/
+/*  5.  custom list
+/*----------------------------------------*/
+.saleserson_table
+{
+    margin: 2% auto;
+    margin-top:15px;
+    text-align: right;
+    padding: 5px;
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    width: 95%;
+    border: 1px solid rgb(238, 235, 235);
+    font-family:'Segoe UI',Arial, Helvetica, sans-serif;
+    src: url('../../fonts/segoeui_0.ttf');
+}
+
+.saleserson_table>thead>tr>th, .saleserson_table>tbody>tr>th, .saleserson_table>tfoot>tr>th, .saleserson_table>thead>tr>td, .saleserson_table>tbody>tr>td, .saleserson_table>tfoot>tr>td {
+    padding: 5px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid rgb(238, 235, 235);
+    text-align: right;
+}

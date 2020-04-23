@@ -1,0 +1,57 @@
+
+
+
+#map {
+	position:absolute;
+	top:22px;
+	left:0;
+	right:0;
+	bottom:0;
+	border:none;
+	border-top:1px solid #1978cf;
+	height:auto;
+	width:auto;
+}
+#post-it {
+	position:absolute;
+	right:5px;
+	top:40px;
+	height:90px;
+	width:90px;
+	font-size:.65em;
+}
+
+/********** Leaflet Customizations for **********/
+
+/* CONTROLS */
+.leaflet-bottom .leaflet-control,
+.leaflet-left .leaflet-control {
+	box-shadow: 0 0 8px rgba(0,0,0,0.4);
+	border:none;
+	background: #009efb;
+    background: -moz-linear-gradient(left, #0178bc 0%, #00bdda 100%);
+    background: -webkit-linear-gradient(left, #0178bc 0%, #00bdda 100%);
+    background: linear-gradient(to right, #0178bc 0%, #00bdda 100%);
+	border-radius:6px;
+	color:white;
+}
+.leaflet-left.leaflet-top .leaflet-control,
+.leaflet-touch .leaflet-left .leaflet-control {
+	margin-left: 8px;
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+.leaflet-left.leaflet-bottom .leaflet-control {
+	margin-left: 8px;
+	margin-bottom: 8px;
+	margin-top: 0;
+}
+
+/* ZOOM */
+.leaflet-control-zoom,
+.leaflet-touch .leaflet-control-zoom {
+	border-radius:4px;
+	/*display: none;*/
+}
+
+
